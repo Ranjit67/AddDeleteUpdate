@@ -1,0 +1,32 @@
+### create user
+POST http://localhost:9000/create
+Content-Type: application/json
+
+{
+  "name": "ranjit",
+  "email": "sahoo@gmail.com",
+  "phoneNumber": "1234567890"
+}
+### User List
+GET http://localhost:9000/userList
+Content-Type: application/json
+
+
+### Update user
+PUT http://localhost:9000/updateUser
+Content-Type: application/json
+
+{
+  "name": "ranjit4",
+  "email": "sahoo@gmail.com",
+  "phoneNumber": "1234567890",
+  "id":"61c814e40eb23a49f944aabd"
+}
+### Delete user
+DELETE http://localhost:9000/deleteUser
+Content-Type: application/json
+
+{
+ 
+  "id":"61c814e40eb23a49f944aabd"
+}
